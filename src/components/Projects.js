@@ -62,7 +62,7 @@ function SkillsProjects({ skills, projectList }) {
           <div className="modal-overlay" onClick={closeSkillModal}>
             <div className="modal-contentskll" onClick={(e) => e.stopPropagation()}>
               <h3>{selectedSkill}</h3>
-              <p>{skillDescriptions[selectedSkill]}</p>
+              <p >{skillDescriptions[selectedSkill]}</p>
               <button className="close-modal-btn" onClick={closeSkillModal}>
                 Close
               </button>
@@ -96,8 +96,8 @@ function SkillsProjects({ skills, projectList }) {
         {selectedProject && (
           <div className="modal-overlay" onClick={closeModal}>
             <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-              <h3>{selectedProject.name} Sub-Projects</h3>
-              <p>{selectedProject.description}</p>
+              <h3 className="subtitle">{selectedProject.name} Sub-Projects</h3>
+              <p className="subtitle">{selectedProject.description}</p>
 
               <div className="projects-list">
                 {selectedProject.subProjects.map((subProject, index) => (
