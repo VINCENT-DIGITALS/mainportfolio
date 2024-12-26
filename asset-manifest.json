@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mainportfolio/static/css/main.596decd0.css",
-    "main.js": "/mainportfolio/static/js/main.2d9cc28b.js",
-    "static/js/453.acca0757.chunk.js": "/mainportfolio/static/js/453.acca0757.chunk.js",
+    "main.js": "/mainportfolio/static/js/main.b4d306a5.js",
+    "static/js/453.9b4d7b80.chunk.js": "/mainportfolio/static/js/453.9b4d7b80.chunk.js",
     "static/media/MYPROFILE.png": "/mainportfolio/static/media/MYPROFILE.340f819720d6e3bb75a5.png",
     "static/media/WUPLOGO.png": "/mainportfolio/static/media/WUPLOGO.67ba6e82fa865c0e4740.png",
     "static/media/MACSLOGO.png": "/mainportfolio/static/media/MACSLOGO.666e3e63929a1593fd99.png",
@@ -11,11 +11,11 @@
     "static/media/CV_Macayanan.pdf": "/mainportfolio/static/media/CV_Macayanan.2f921340dfcc4e62e892.pdf",
     "index.html": "/mainportfolio/index.html",
     "main.596decd0.css.map": "/mainportfolio/static/css/main.596decd0.css.map",
-    "main.2d9cc28b.js.map": "/mainportfolio/static/js/main.2d9cc28b.js.map",
-    "453.acca0757.chunk.js.map": "/mainportfolio/static/js/453.acca0757.chunk.js.map"
+    "main.b4d306a5.js.map": "/mainportfolio/static/js/main.b4d306a5.js.map",
+    "453.9b4d7b80.chunk.js.map": "/mainportfolio/static/js/453.9b4d7b80.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.596decd0.css",
-    "static/js/main.2d9cc28b.js"
+    "static/js/main.b4d306a5.js"
   ]
 }
