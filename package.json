@@ -1,6 +1,6 @@
 {
   "homepage": "https://VINCENT-DIGITALS.github.io/mainportfolio/",
-  "name": "my-portfolio",
+  "name": "mainportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

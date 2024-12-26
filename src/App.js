@@ -20,7 +20,7 @@ function App() {
     facebook: "https://www.facebook.com/Itsvincentlang/",
   };
   return (
-    <Router basename="/my-portfolio">
+    <Router basename="/mainportfolio">
       <div className="App">
         <Navbar isOpen={isOpen} toggleMenu={toggleMenu} />
         <Routes>
