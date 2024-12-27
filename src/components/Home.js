@@ -28,7 +28,7 @@ function Dashboard({ profile }) {
         </h3>
         <p>{profile.description}</p>
         <a href={profile.cv} download={profile.cvName}   className="cv-btn">
-          Access my CV here! 
+          Access my Resume here! 
         </a>
       </div>
     </div>
