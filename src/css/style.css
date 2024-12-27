@@ -352,7 +352,7 @@ textarea {
 
 button {
   padding: 10px;
-  background-color: #1f2833;
+  background-color: transparent;
   color: #0074b7;
   border: none;
   border-radius: 4px;
@@ -380,7 +380,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
   background-color: whitesmoke;
-  color: white;
+  color: black;
   min-height: 100vh;
   padding: 40px 20px;
   gap: 40px;
@@ -411,7 +411,7 @@ button:hover {
 }
 
 .skill-item {
-  background-color: #13141c;
+  background-color: transparent;
   text-align: center;
   padding: 15px 20px;
   font-size: 1.1rem;
@@ -435,14 +435,15 @@ button:hover {
 }
 
 .project-card {
-  background-color: #13141c;
-  color: #ffffff;
+  background-color: transparent;
+  color: black;
   text-align: center;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 .project-card:hover {
   transform: translateY(-5px);
@@ -459,7 +460,7 @@ button:hover {
 .project-card p {
   font-size: 1rem;
   margin-bottom: 15px;
-  color: white;
+  color: black;
 }
 
 .subtitleroj{
@@ -477,7 +478,7 @@ button:hover {
   display: inline-block;
   padding: 10px 15px;
   font-size: 0.9rem;
-  color: white;
+  color: black;
   border: 2px solid #0074b7;
   border-radius: 8px;
   text-decoration: none;
@@ -537,12 +538,16 @@ button:hover {
 .aboutMe-content {
   max-width: 600px;
   margin: 0 auto;
-  background: linear-gradient(145deg, #0c0d13, #13141c);
+  background: transparent;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.5);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+ 
 }
 
+.aboutMe-content p{
+  color: black;
+}
 .aboutMe-intro {
   font-size: 1.8rem;
   color: #60A3D9;
@@ -552,7 +557,7 @@ button:hover {
 .aboutMe-intro span {
   font-size: 2rem;
   font-weight: bold;
-  color: #BFD7ED;
+  color: #0074b7;
 
 }
 
@@ -583,13 +588,13 @@ button:hover {
 }
 
 .education-card {
-  background-color: #13141c;
-  color: #ffffff;
+  background-color: transparent;
+  color: black;
   margin: 15px;
   padding: 20px;
   width: 300px;
   border-radius: 10px;
-  box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.5);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease-in-out;
   text-align: center;
 }
@@ -602,7 +607,7 @@ button:hover {
 
 .education-card p {
   font-size: 1rem;
-  color: #f7f7f7;
+  color: black;
 }
 
 .education-card:hover {
@@ -614,7 +619,7 @@ button:hover {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 15px;
-  color: white;
+  color: black;
   border: 2px solid #0074b7;
   border-radius: 5px;
   text-decoration: none;
@@ -638,13 +643,13 @@ button:hover {
 }
 
 .certificate-card {
-  background-color: #13141c;
-  color: #ffffff;
+  background-color: transparent;
+  color: black;
   margin: 15px;
   padding: 20px;
   width: 300px;
   border-radius: 10px;
-  box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.5);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease-in-out;
   text-align: center;
 }
@@ -657,7 +662,7 @@ button:hover {
 
 .certificate-card p {
   font-size: 1rem;
-  color: #f7f7f7;
+  color: black;
 }
 
 .certificate-card:hover {
@@ -669,7 +674,7 @@ button:hover {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 15px;
-  color: white;
+  color: black;
   border: 2px solid #0074b7;
   border-radius: 5px;
   text-decoration: none;
@@ -849,7 +854,8 @@ button:hover {
 
 /* Modal Content */
 .modal-contentskll {
-  background-color: #2d2d2d; /* Light background color */
+  background-color: whitesmoke; /* Light background color */
+  color: black;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);

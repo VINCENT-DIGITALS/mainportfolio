@@ -24,7 +24,7 @@ function Dashboard({ profile }) {
         <h1>Hello, I am</h1>
         <h2>{profile.name}</h2>
         <h3>
-          A <span className="highlight">{profile.title}</span>
+          <span className="highlight">{profile.title}</span>
         </h3>
         <p>{profile.description}</p>
         <a href={profile.cv} download={profile.cvName}   className="cv-btn">
