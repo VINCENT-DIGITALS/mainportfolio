@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class AboutMe extends Component {
     render() {
-        const { educationList } = this.props;
+        const { educationList, certificateList } = this.props;
 
         return (
             <div className="AboutMe-container">
@@ -23,7 +23,8 @@ class AboutMe extends Component {
                     </div>
                 </section>
 
-                <section className="background-section">
+                {/* Background Education Section */}
+                <section className="background-education-section">
                     <h2 className="bgH2">Background Education</h2>
                     <div className="education-list">
                         {educationList.map((education, index) => (
@@ -47,6 +48,31 @@ class AboutMe extends Component {
                                             rel="noopener noreferrer"
                                         >
                                             View School
+                                        </a>
+                                    )}
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+
+                {/* Certificates Section */}
+                <section className="certificate-section">
+                    <h2 className="bgH2">Certificates & Achievements</h2>
+                    <div className="certificate-list">
+                        {certificateList.map((cert, index) => (
+                            <div key={index} className="certificate-card">
+                                <div className="certificate-details">
+                                    <h3>{cert.name}</h3>
+                                    <p>{cert.description}</p>
+                                    {cert.certificate && (
+                                        <a
+                                            href={cert.certificate}
+                                            className="certificate-link"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            View Certificate
                                         </a>
                                     )}
                                 </div>

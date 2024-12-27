@@ -609,6 +609,61 @@ button:hover {
 }
 
 
+/* Certificate */
+
+.certificate-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.certificate-card {
+  background-color: #13141c;
+  color: #ffffff;
+  margin: 15px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.5);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+}
+
+.certificate-card h3 {
+  color: #8bff80;
+  margin-bottom: 10px;
+  
+}
+
+.certificate-card p {
+  font-size: 1rem;
+  color: #f7f7f7;
+}
+
+.certificate-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px #ff9980;
+}
+
+.certificate-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  color: #ff9980;
+  border: 2px solid #ff9980;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.certificate-link:hover {
+  background-color: #ff9980;
+  color: #0a0b10;
+}
+
+.certificate-section{
+  margin-top: 20px;
+}
 
 
 /* --- Updated Contact Page --- */

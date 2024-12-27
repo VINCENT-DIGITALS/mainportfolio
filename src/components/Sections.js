@@ -6,6 +6,7 @@ import clsuLogo from '../Assets/CLSU_logo.png';
 import wesleyanLogo from '../Assets/WUPLOGO.png';
 import manhsLogo from '../Assets/MANHSLOGO.png';
 import macsLogo from '../Assets/MACSLOGO.png';
+import googleWorkspaceCert from '../Assets/GOOGLE_WORSPACE_SPECIALIZATION.pdf'
 import SkillsProjects from "./Projects";
 import { FaArrowUp } from 'react-icons/fa'; // Using react-icons for the "Scroll to Top" icon
 import Contact from "./Contact";
@@ -78,6 +79,24 @@ function Sections() {
         }
     ];
 
+    const certificateList = [
+        {
+            name: 'Google Workspace',
+            description: 'Earned a specialization in Google Workspace tools, showcasing skills in collaboration and productivity through advanced use of Google applications.',
+            certificate: googleWorkspaceCert // Add the certificate link here
+        },
+        {
+            name: 'Participant, 10th TOPCIT Philippines, 2024',
+            description: 'Participated in the 10th TOPCIT Philippines assessment program to demonstrate technical problem-solving skills.',
+            link: null // No specific link provided
+        },
+        {
+            name: 'Top 15 Regional Finalist, Philippine Startup Challenge 9, 2024',
+            description: 'Achieved Top 15 regional finalist position for a startup idea and business plan in the Philippine Startup Challenge 9.',
+            link: null // No specific link provided
+        }
+    ];
+
 
 
     const educationList = [
@@ -125,7 +144,7 @@ function Sections() {
                 <Dashboard profile={profileData} />
             </section>
             <section id="about">
-                <About educationList={educationList} />
+                <About educationList={educationList} certificateList={certificateList} />
             </section>
             <section id='projects'>
                 <SkillsProjects skills={skills} projectList={projectList} />
