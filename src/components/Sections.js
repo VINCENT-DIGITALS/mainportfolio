@@ -39,7 +39,7 @@ function Sections() {
     const profileData = {
         name: "John Vincent Macayanan",
         title: "Aspiring Software Developer",
-        description: "Driven by curiosity and a love for coding, feel free to check out my CV below for more details about my experience and qualifications.",
+        description: "Driven by curiosity and a love for coding, feel free to check out my Resume below for more details about my qualifications.",
         cv: CV_Macayanan,
         cvName: "CV_Macayanan.pdf",
         image: profilePic,

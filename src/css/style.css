@@ -49,7 +49,7 @@ body, html {
 .logo {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #ff6f61; /* Soft coral */
+  color: #4d586d; /* Soft coral */
   font-family: 'Cursive', sans-serif;
 }
 
@@ -93,15 +93,15 @@ body, html {
 
 .nav-links li button:hover,
 .nav-links li a:hover {
-  color: #ff6f61;
+  color: #0074b7;
   transform: translateY(-3px);
 }
 
 /* Active Link */
 .nav-links li.active button,
 .nav-links li.active a {
-  color: #ff6f61;
-  border-bottom: 2px solid #ff6f61;
+  color: #0074b7;
+  border-bottom: 2px solid #0074b7;
 }
 
 /* Responsive Menu */
@@ -171,14 +171,14 @@ body, html {
 }
 
 .footer a {
-  color: #ff6f61;
+  color: #4d586d;
   text-decoration: none;
   transition: color 0.3s ease;
   margin: 0 5px;
 }
 
 .footer a:hover {
-  color: #45a29e;
+  color: #0074b7;
 }
 
 
@@ -196,6 +196,7 @@ body, html {
   min-height: 100vh;
   background-color: whitesmoke; /* Soft pastel pink */
   color: #4a4a4a; /* Neutral gray */
+  margin: auto;
 }
 
 /* Stack sections vertically on smaller screens */
@@ -204,6 +205,7 @@ body, html {
     grid-template-columns: 1fr; /* Stack sections vertically */
     text-align: center;
     padding: 20px;
+    margin: auto;
   }
 
   .image-section img {
@@ -226,7 +228,7 @@ body, html {
 
 .profile-section h1 {
   font-size: 2.5rem;
-  color: #ff6f61; /* Coral */
+  color: #0074b7; /* Coral */
   margin-bottom: 0.5rem;
   font-family: 'Cursive', sans-serif; /* Adds a softer font */
 }
@@ -239,11 +241,11 @@ body, html {
 
 .profile-section h3 {
   font-size: 1.8rem;
-  color: #9b59b6; /* Soft lavender */
+  color: #000000; /* Soft lavender */
 }
 
 .highlight {
-  color: #ff6f61; /* Coral to match heading */
+  color: #0074b7; /* Coral to match heading */
 }
 
 .profile-section p {
@@ -255,7 +257,7 @@ body, html {
 
 /* CV Button */
 .cv-btn {
-  background-color: #ff6f61; /* Coral */
+  background-color: #0074b7; /* Coral */
   color: white;
   padding: 12px 24px;
   border: none;
@@ -269,8 +271,10 @@ body, html {
 }
 
 .cv-btn:hover {
-  background-color: #ff9980; /* Slightly lighter coral */
+  background-color: #60A3D9; /* Slightly lighter coral */
   transform: translateY(-3px);
+  color: rgb(37, 36, 36);
+  font-weight: bold;
 }
 
 /* Image Section */
@@ -302,7 +306,7 @@ body, html {
 
 .spinner {
   border: 6px solid #e5e5e5; /* Light gray for the spinner track */
-  border-top: 6px solid #ff6f61; /* Coral spinner color */
+  border-top: 6px solid #0074b7; /* Coral spinner color */
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -349,7 +353,7 @@ textarea {
 button {
   padding: 10px;
   background-color: #1f2833;
-  color: #66fcf1;
+  color: #0074b7;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -357,7 +361,8 @@ button {
 }
 
 button:hover {
-  background-color: #45a29e;
+  background-color: #0074b7;
+  color: #000000;
 }
 
 .error {
@@ -375,7 +380,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
   background-color: whitesmoke;
-  color: #a6ffcb;
+  color: white;
   min-height: 100vh;
   padding: 40px 20px;
   gap: 40px;
@@ -383,7 +388,7 @@ button:hover {
 
 .skills-projects-container h2 {
   font-size: 2.5rem;
-  color: #ff9980;
+  color: #0074b7;
   margin-bottom: 20px;
   text-align: center;
   text-transform: uppercase;
@@ -417,8 +422,9 @@ button:hover {
 
 .skill-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0px 8px 15px rgba(255, 153, 128, 0.5);
-  color: #ff9966; /* Change text color on hover */
+  box-shadow: 0px 8px 15px #0074b7;
+  color: black; /* Change text color on hover */
+  font-weight: bold;
 }
 
 .projects-list {
@@ -440,36 +446,48 @@ button:hover {
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0px 10px 20px rgba(255, 153, 128, 0.5);
+  box-shadow: 0px 10px 20px #0074b7;
 }
 
 .project-card h3 {
-  color: #ff9980;
+  color: #0074b7;
   margin-bottom: 10px;
   font-size: 1.5rem;
-  text-shadow: 0px 0px 2px rgba(255, 153, 128, 0.6);
+
 }
 
 .project-card p {
   font-size: 1rem;
   margin-bottom: 15px;
-  color: #a6ffcb;
+  color: white;
 }
 
+.subtitleroj{
+  color: #60A3D9;
+  margin: 10px;
+}
+
+.modal-content-proj{
+  background-color: whitesmoke;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 12px;
+}
 .project-link {
   display: inline-block;
   padding: 10px 15px;
   font-size: 0.9rem;
-  color: #ff9980;
-  border: 2px solid #ff9980;
+  color: white;
+  border: 2px solid #0074b7;
   border-radius: 8px;
   text-decoration: none;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .project-link:hover {
-  background-color: #ff9980;
+  background-color: #60A3D9;
   color: #0a0b10;
+  font-weight: bold;
 }
 
 
@@ -483,7 +501,7 @@ button:hover {
   height: 1px;
   background: linear-gradient(to right, #ff0000, transparent);
   margin: 40px auto;
-  width: 80%;
+  width: 90%;
 }
 
 
@@ -512,7 +530,7 @@ button:hover {
 
 .aboutMe-section h2 {
   font-size: 2.5rem;
-  color: #ff9980;
+  color: #0074b7;
   margin-bottom: 20px;
 }
 
@@ -527,15 +545,15 @@ button:hover {
 
 .aboutMe-intro {
   font-size: 1.8rem;
-  color: #a6ffcb;
+  color: #60A3D9;
   margin-bottom: 10px;
 }
 
 .aboutMe-intro span {
   font-size: 2rem;
   font-weight: bold;
-  color: #ff9980;
-  text-shadow: 0px 0px 5px rgba(0, 225, 255, 0.5);
+  color: #BFD7ED;
+
 }
 
 .aboutMe-description {
@@ -548,7 +566,7 @@ button:hover {
 
 .bgH2 {
   font-size: 2.5rem;
-  color: #ff9980;
+  color: #0074b7;
   margin-bottom: 0.5rem;
 }
 
@@ -577,7 +595,7 @@ button:hover {
 }
 
 .education-card h3 {
-  color: #8bff80;
+  color: #60A3D9;
   margin-bottom: 10px;
   
 }
@@ -589,28 +607,30 @@ button:hover {
 
 .education-card:hover {
   transform: scale(1.05);
-  box-shadow: 0px 0px 20px #ff9980;
+  box-shadow: 0px 0px 20px #BFD7ED;
 }
 
 .education-link {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 15px;
-  color: #ff9980;
-  border: 2px solid #ff9980;
+  color: white;
+  border: 2px solid #0074b7;
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .education-link:hover {
-  background-color: #ff9980;
+  background-color: #0074b7;
   color: #0a0b10;
+  font-weight: bold;
 }
 
 
-/* Certificate */
-
+.certificate-section{
+  margin-top: 20px;
+}
 .certificate-list {
   display: flex;
   justify-content: center;
@@ -630,7 +650,7 @@ button:hover {
 }
 
 .certificate-card h3 {
-  color: #8bff80;
+  color: #60A3D9;
   margin-bottom: 10px;
   
 }
@@ -642,28 +662,26 @@ button:hover {
 
 .certificate-card:hover {
   transform: scale(1.05);
-  box-shadow: 0px 0px 20px #ff9980;
+  box-shadow: 0px 0px 20px #BFD7ED;
 }
 
 .certificate-link {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 15px;
-  color: #ff9980;
-  border: 2px solid #ff9980;
+  color: white;
+  border: 2px solid #0074b7;
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .certificate-link:hover {
-  background-color: #ff9980;
+  background-color: #0074b7;
   color: #0a0b10;
+  font-weight: bold;
 }
 
-.certificate-section{
-  margin-top: 20px;
-}
 
 
 /* --- Updated Contact Page --- */
@@ -672,7 +690,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: whitesmoke;
+  background:  whitesmoke;
   color: #a6ffcb;
   min-height: 100vh;
   padding: 2rem;
@@ -689,7 +707,7 @@ button:hover {
 
 .contact-header h2 {
   font-size: 2.5rem;
-  color: #ff9980;
+  color: #0074b7;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -728,7 +746,7 @@ button:hover {
 
 .detail-item svg {
   margin-right: 1rem;
-  color: #ff9980;
+  color: #0074b7;
   font-size: 1.5rem;
 }
 
@@ -804,7 +822,16 @@ button:hover {
   justify-content: center;
   z-index: 1000;
 }
+.modal-content-proj {
+  position: relative;
+  max-width: 600px;
+  max-height: 90vh; /* Ensures the modal doesn't take more than 80% of the viewport height */
+  overflow-y: auto; /* Enables vertical scrolling if content overflows */
 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 /* Close Modal Button */
 .close-modal-btn {
   margin-top: 10px;
@@ -846,10 +873,6 @@ button:hover {
 .skill-description {
   margin-top: 5px;
   font-size: 0.9rem;
-  color: #3d3d3d;
+  color: #555;
 }
 
-.subtitle{
-  color: #ffffff;
-  margin-bottom: 5px;
-}

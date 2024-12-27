@@ -79,7 +79,7 @@ function SkillsProjects({ skills, projectList }) {
               <h3>{project.name}</h3>
               <p>{project.description}</p>
               {project.subProjects ? (
-                <button className="view-subprojects-btn" onClick={() => handleBAYANiClick(project)}>
+                <button className="project-link" onClick={() => handleBAYANiClick(project)}>
                   View Sub-Projects
                 </button>
               ) : (
@@ -95,14 +95,14 @@ function SkillsProjects({ skills, projectList }) {
 
         {selectedProject && (
           <div className="modal-overlay" onClick={closeModal}>
-            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-              <h3 className="subtitle">{selectedProject.name} Sub-Projects</h3>
-              <p className="subtitle">{selectedProject.description}</p>
+            <div className="modal-content-proj" onClick={(e) => e.stopPropagation()}>
+              <h3 className="subtitleroj">{selectedProject.name} Sub-Projects</h3>
+              <p className="subtitleroj">{selectedProject.description}</p>
 
               <div className="projects-list">
                 {selectedProject.subProjects.map((subProject, index) => (
                   <div key={index} className="project-card">
-                    <h3>{subProject.name}</h3>
+                    <h3 className='subproj'>{subProject.name}</h3>
                     <p>{subProject.description}</p>
                     <a
                       href={subProject.link}
