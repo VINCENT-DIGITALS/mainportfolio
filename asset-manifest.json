@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mainportfolio/static/css/main.294c5ea5.css",
-    "main.js": "/mainportfolio/static/js/main.c4829f1e.js",
+    "main.js": "/mainportfolio/static/js/main.54c9be52.js",
     "static/js/453.9b4d7b80.chunk.js": "/mainportfolio/static/js/453.9b4d7b80.chunk.js",
     "static/media/MYPROFILE.png": "/mainportfolio/static/media/MYPROFILE.340f819720d6e3bb75a5.png",
     "static/media/WUPLOGO.png": "/mainportfolio/static/media/WUPLOGO.67ba6e82fa865c0e4740.png",
@@ -9,14 +9,14 @@
     "static/media/CLSU_logo.png": "/mainportfolio/static/media/CLSU_logo.fbdbdfd79ce7cb4078f9.png",
     "static/media/MANHSLOGO.png": "/mainportfolio/static/media/MANHSLOGO.42917c25e63c94e68f07.png",
     "static/media/GOOGLE_WORSPACE_SPECIALIZATION.pdf": "/mainportfolio/static/media/GOOGLE_WORSPACE_SPECIALIZATION.e3cf81fe5d98252077d7.pdf",
-    "static/media/CV_Macayanan.pdf": "/mainportfolio/static/media/CV_Macayanan.2f921340dfcc4e62e892.pdf",
+    "static/media/CV_Macayanan.pdf": "/mainportfolio/static/media/CV_Macayanan.8977cbdc9cb22172df6b.pdf",
     "index.html": "/mainportfolio/index.html",
     "main.294c5ea5.css.map": "/mainportfolio/static/css/main.294c5ea5.css.map",
-    "main.c4829f1e.js.map": "/mainportfolio/static/js/main.c4829f1e.js.map",
+    "main.54c9be52.js.map": "/mainportfolio/static/js/main.54c9be52.js.map",
     "453.9b4d7b80.chunk.js.map": "/mainportfolio/static/js/453.9b4d7b80.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.294c5ea5.css",
-    "static/js/main.c4829f1e.js"
+    "static/js/main.54c9be52.js"
   ]
 }
