@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mainportfolio/static/css/main.d17b7600.css",
+    "main.css": "/mainportfolio/static/css/main.d932a96a.css",
     "main.js": "/mainportfolio/static/js/main.899ab880.js",
     "static/js/453.9b4d7b80.chunk.js": "/mainportfolio/static/js/453.9b4d7b80.chunk.js",
     "static/media/MYPROFILE.png": "/mainportfolio/static/media/MYPROFILE.340f819720d6e3bb75a5.png",
@@ -11,12 +11,12 @@
     "static/media/GOOGLE_WORSPACE_SPECIALIZATION.pdf": "/mainportfolio/static/media/GOOGLE_WORSPACE_SPECIALIZATION.e3cf81fe5d98252077d7.pdf",
     "static/media/CV_Macayanan.pdf": "/mainportfolio/static/media/CV_Macayanan.cdb0218ff003ca204a55.pdf",
     "index.html": "/mainportfolio/index.html",
-    "main.d17b7600.css.map": "/mainportfolio/static/css/main.d17b7600.css.map",
+    "main.d932a96a.css.map": "/mainportfolio/static/css/main.d932a96a.css.map",
     "main.899ab880.js.map": "/mainportfolio/static/js/main.899ab880.js.map",
     "453.9b4d7b80.chunk.js.map": "/mainportfolio/static/js/453.9b4d7b80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d17b7600.css",
+    "static/css/main.d932a96a.css",
     "static/js/main.899ab880.js"
   ]
 }
