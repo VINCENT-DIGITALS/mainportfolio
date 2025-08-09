@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mainportfolio/static/css/main.eab8291d.css",
-    "main.js": "/mainportfolio/static/js/main.7bed7d62.js",
+    "main.js": "/mainportfolio/static/js/main.3856f7f6.js",
     "static/js/453.9b4d7b80.chunk.js": "/mainportfolio/static/js/453.9b4d7b80.chunk.js",
     "static/media/WUPLOGO.png": "/mainportfolio/static/media/WUPLOGO.67ba6e82fa865c0e4740.png",
     "static/media/MACSLOGO.png": "/mainportfolio/static/media/MACSLOGO.666e3e63929a1593fd99.png",
@@ -12,11 +12,11 @@
     "static/media/CV_Macayanan.pdf": "/mainportfolio/static/media/CV_Macayanan.3c00d0130d4827593b60.pdf",
     "index.html": "/mainportfolio/index.html",
     "main.eab8291d.css.map": "/mainportfolio/static/css/main.eab8291d.css.map",
-    "main.7bed7d62.js.map": "/mainportfolio/static/js/main.7bed7d62.js.map",
+    "main.3856f7f6.js.map": "/mainportfolio/static/js/main.3856f7f6.js.map",
     "453.9b4d7b80.chunk.js.map": "/mainportfolio/static/js/453.9b4d7b80.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eab8291d.css",
-    "static/js/main.7bed7d62.js"
+    "static/js/main.3856f7f6.js"
   ]
 }
