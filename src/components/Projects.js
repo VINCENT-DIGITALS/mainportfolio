@@ -9,7 +9,7 @@ function SkillsProjects({ skills, projectList }) {
     PHP: 'A server-side scripting language for web development.',
     C: 'A general-purpose programming language.',
     JavaScript: 'A programming language for creating dynamic web content.',
-    React: 'A JavaScript library for building user interfaces.',
+    ReactJS: 'A JavaScript library for building user interfaces.',
     'Node.js': 'A runtime environment for executing JavaScript on the server.',
     Flutter: 'A UI toolkit for building natively compiled applications.',
     Dart: 'A programming language optimized for building UI.',

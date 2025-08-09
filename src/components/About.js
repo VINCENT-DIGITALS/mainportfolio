@@ -11,14 +11,11 @@ class AboutMe extends Component {
                 <section className="aboutMe-section">
                     <h2>About Me</h2>
                     <div className="aboutMe-content">
-                        <p className="aboutMe-intro">
-                            I'm <span>John Vincent Macayanan</span>
+                        <p className="aboutMe-description">
+                            Fresh graduate of Bachelor of Science in Information Technology with experience in developing web and cross-platform applications. Possesses working knowledge in frameworks such as Flutter and Laravel, with experience in React.js, HTML, CSS, PHP, MySQL, Firebase, and the low-code platform FlutterFlow. Skilled in using Canva and Figma for design, with strong problem-solving abilities, a collaborative mindset, and a willingness to learn new technologies to contribute to the company’s success.
                         </p>
                         <p className="aboutMe-description">
-                            An aspiring software developer and a current Bachelor of Science in Information Technology (BSIT) student.
-                        </p>
-                        <p className="aboutMe-description">
-                            I am continuously learning and honing my skills in software development to tackle real-world challenges and build applications.
+                            I am continuously learning and honing my skills in software development.
                         </p>
                     </div>
                 </section>

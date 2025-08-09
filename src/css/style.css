@@ -566,6 +566,8 @@ button:hover {
   color: #ffffff;
   margin-top: 20px;
   line-height: 1.8;
+  text-align: justify;
+   text-indent: 40px;
 }
 
 

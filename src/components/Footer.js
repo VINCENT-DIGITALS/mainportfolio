@@ -1,9 +1,10 @@
 import React from 'react';
 
 function Footer({ socialLinks }) {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="footer">
-      <p>© 2024 John Vincent Macayanan's Portfolio | All Rights Reserved</p>
+      <p>© {currentYear} John Vincent Macayanan's Portfolio | All Rights Reserved</p>
       <p>
         Visit my Profile{' '}
         <a href={socialLinks.github} target="_blank" rel="noopener noreferrer">
