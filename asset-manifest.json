@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mainportfolio/static/css/main.d932a96a.css",
-    "main.js": "/mainportfolio/static/js/main.8edee746.js",
+    "main.css": "/mainportfolio/static/css/main.eab8291d.css",
+    "main.js": "/mainportfolio/static/js/main.7bed7d62.js",
     "static/js/453.9b4d7b80.chunk.js": "/mainportfolio/static/js/453.9b4d7b80.chunk.js",
-    "static/media/MYPROFILE.png": "/mainportfolio/static/media/MYPROFILE.340f819720d6e3bb75a5.png",
     "static/media/WUPLOGO.png": "/mainportfolio/static/media/WUPLOGO.67ba6e82fa865c0e4740.png",
     "static/media/MACSLOGO.png": "/mainportfolio/static/media/MACSLOGO.666e3e63929a1593fd99.png",
     "static/media/CLSU_logo.png": "/mainportfolio/static/media/CLSU_logo.fbdbdfd79ce7cb4078f9.png",
     "static/media/MANHSLOGO.png": "/mainportfolio/static/media/MANHSLOGO.42917c25e63c94e68f07.png",
+    "static/media/MYPROFILE.png": "/mainportfolio/static/media/MYPROFILE.9e2b2ec16a117ef2543e.png",
     "static/media/GOOGLE_WORSPACE_SPECIALIZATION.pdf": "/mainportfolio/static/media/GOOGLE_WORSPACE_SPECIALIZATION.e3cf81fe5d98252077d7.pdf",
-    "static/media/CV_Macayanan.pdf": "/mainportfolio/static/media/CV_Macayanan.3e3f2978af543602f698.pdf",
+    "static/media/CV_Macayanan.pdf": "/mainportfolio/static/media/CV_Macayanan.3c00d0130d4827593b60.pdf",
     "index.html": "/mainportfolio/index.html",
-    "main.d932a96a.css.map": "/mainportfolio/static/css/main.d932a96a.css.map",
-    "main.8edee746.js.map": "/mainportfolio/static/js/main.8edee746.js.map",
+    "main.eab8291d.css.map": "/mainportfolio/static/css/main.eab8291d.css.map",
+    "main.7bed7d62.js.map": "/mainportfolio/static/js/main.7bed7d62.js.map",
     "453.9b4d7b80.chunk.js.map": "/mainportfolio/static/js/453.9b4d7b80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d932a96a.css",
-    "static/js/main.8edee746.js"
+    "static/css/main.eab8291d.css",
+    "static/js/main.7bed7d62.js"
   ]
 }
