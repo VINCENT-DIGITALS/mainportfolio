@@ -51,7 +51,7 @@ function SkillsProjects({ skills, projectList }) {
             <li
               key={index}
               className="skill-item"
-              onClick={() => handleSkillClick(skill)} // Handle skill click
+              // onClick={() => handleSkillClick(skill)} // Handle skill click
             >
               {skill}
             </li>
