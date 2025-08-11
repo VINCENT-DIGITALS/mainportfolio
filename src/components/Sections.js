@@ -69,6 +69,9 @@ function Sections() {
     "Figma",
     "Canva",
     "MS Suite",
+    "Trello",
+    "Slack",
+    "Google Workspace",
   ];
 
   const projectList = [
